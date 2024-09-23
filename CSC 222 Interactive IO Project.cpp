@@ -33,9 +33,9 @@ int main()
 	flour = cookies * (RECIPE_FLOUR / RECIPE_COOKIES);
 
 	cout << endl << "Adjusted Requirements: " << setprecision(3) << endl;
-	cout << "Sugar: " << sugar << " cups." << endl;
-	cout << "Butter: " << butter << " cups." << endl;
-	cout << "Flour: " << flour << " cups." << endl;
+	cout << setw(10) << left << "Sugar: " << sugar << " cups." << endl;
+	cout << setw(10) << left << "Butter: " << butter << " cups." << endl;
+	cout << setw(10) << left << "Flour: " << flour << " cups." << endl;
 
 }
 
